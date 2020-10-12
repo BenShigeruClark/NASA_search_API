@@ -2,6 +2,24 @@
 <html>
   <head>
     <title>NASA Search API</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+      img {
+        margin: 5px;
+        width: 20px;
+      }
+      #avatar {
+        width: 150px;
+      }
+      ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -10,6 +28,8 @@
       <h3 id="loader">Loading...</h3>
       <div><img id="avatar" src="" /></div>
       <div></div>
+      <input type="text" placeholder="NASA image">
+      <button>Get Image from NASA</button>
     </div>
   </body>
 </html>
